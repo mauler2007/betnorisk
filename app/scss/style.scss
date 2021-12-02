@@ -1,0 +1,25 @@
+@import "global/reset";
+@import "global/vars";
+@import "global/mixins";
+@import "global/global";
+@import "global/fonts";
+@import "global/libs";
+
+// @import "components/_switcherOld";
+// @import "components/_img";
+@import "components/_btn";
+
+// SLICK SLIDER
+@import "slick-slider/slick-theme";
+@import "slick-slider/slick";
+
+@import "blocks/slider";
+@import "blocks/terms";
+
+// FORM
+@import "blocks/_formStyle";
+@import "blocks/_intlTelInput";
+
+@import "blocks/_promo";
+@import "blocks/_instruction";
+@import "blocks/_popup";

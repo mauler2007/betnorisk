@@ -1,0 +1,23 @@
+-
+  var popupName = 'Período da campanha'
+  var period = '1 de Outubro de 2021 a 1 de Outubro de 2022'
+  var popupTexts = [
+    {pupupText: 'Para participar é necessário preencher um formulário de candidatura, confirmar o seu número de telefone, bem como o seu e-mail.'}
+  ]
+   
+#popup-modal.popup.modal
+
+  .popup__wrapper
+    a.popup__close(href='#') 
+      span.popup__close-btn
+    
+    .popup__content 
+      .popup__rule  
+        p.popup__text.
+          Для участия в акции вам необходимо <span> войти </span> или <span> зарегестрироватся</span>
+          
+      .popup__buttons
+        a.btn.popup__btn(href='https://betandyou.com/registration/').
+          войти
+        a.btn.popup__btn.target-btn(href='https://betandyou.com/registration/').
+          зарегестрироваться
